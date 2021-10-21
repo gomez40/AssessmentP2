@@ -1,0 +1,36 @@
+#what .items {
+}
+
+/* Align icon to left */
+#what .items .item {
+    padding: 10px;
+    align-text: center;
+}
+
+/* Position icon */
+#what .items .item i {
+    padding: 25px;
+    border-radius: 100%;
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+#showcase {
+    background: url(/AssessmentPart2-main/img/article.svg) no-repeat center center/cover;
+    background-color:turquoise;
+    height: 100vh;
+}
+#showcase .showcase-content {
+    justify-content: center;
+    height: 100vh;
+    background: rgba(10, 10, 10, 0.4);
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+}
+#btn :hover{
+    background-color:#8bc946;
+    color:black;
+
+
+}
